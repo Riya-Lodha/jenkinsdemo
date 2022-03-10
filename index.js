@@ -9,6 +9,13 @@ app.get('/',(req, res)=>{
 
 })
 
+app.get('/help',(req, res)=>{
+
+    console.log("Help page logged in the logs")
+    res.send("<h1>WELCOME TO THE Help JSSSSS PAGE</h1>")
+
+})
+
 
 app.get('/about',(req, res)=>{
 
