@@ -35,6 +35,8 @@ app.get('/home',(req, res)=>{
 
 
 
+
+
 app.get('/career',(req, res)=>{
 
     console.log("Career Page logged in the logs")
