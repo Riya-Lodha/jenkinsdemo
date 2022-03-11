@@ -42,4 +42,11 @@ app.get('/career',(req, res)=>{
 
 })
 
+app.get('/people',(req, res)=>{
+
+    console.log("People Page logged in the logs")
+    res.send("<h1>This is People Page..How are you?</h1>")
+
+})
+
 app.listen(3000);
